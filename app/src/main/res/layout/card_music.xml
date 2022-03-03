@@ -23,6 +23,17 @@
                     android:layout_gravity="center_vertical"
                     android:layout_marginStart="10dp" />
 
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tvFileName"
+                    android:layout_gravity="center_vertical"
+                    android:text="dido with flag"
+                    android:textSize="14sp"
+                    android:textColor="@color/black"
+                    android:layout_marginStart="20dp"
+                    android:maxLines="1"
+                    android:ellipsize="end" />
         </LinearLayout>
     </androidx.cardview.widget.CardView>
 </androidx.constraintlayout.widget.ConstraintLayout>
